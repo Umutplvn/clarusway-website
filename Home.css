@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: #35424a;
+  border-bottom: 3px solid #924d7d;
+  padding: 1rem;
+}
+
+.header h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+}
+
+.mor {
+  color: #7e4d76;
+}
+
+.beyaz {
+  color: white;
+}
+
+.leftaside {
+  color: white;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.leftaside:hover {
+  color: #924d7d;
+}
+
+.bgimage {
+  width: 100%;
+  height: 300px;
+  background-image: url("./img/showcase.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgh1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  padding-top: 70px;
+}
+.imgp {
+  padding-top: 40px;
+}
+
+.subscribe {
+  width: 100%;
+  height: 80px;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #35424a;
+}
+
+.input {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+}
+
+.yazi {
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+}
+
+.button {
+  color: white;
+  background-color: #e7491d;
+  width: 75px;
+}
+
+.button:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.adds {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.adds div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 5px;
+}
+
+.paragraf {
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  height: 120px;
+  background-color: #35424a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+}
+.cwlogo {
+  height: 40px;
+}

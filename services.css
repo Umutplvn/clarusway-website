@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: #35424a;
+    border-bottom: 3px solid #924d7d;
+    padding: 1rem;
+  }
+  
+  .header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+  }
+  
+  .mor {
+    color: #7e4d76;
+  }
+  
+  .beyaz {
+    color: white;
+  }
+  
+  .leftaside {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+  }
+  
+  .leftaside:hover {
+    color: #924d7d;
+  }
+  
+  
+.subscribe {
+    width: 100%;
+    height: 80px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #35424a;
+  }
+  
+  .input {
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+  }
+  
+  .yazi {
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+  }
+  
+  .button {
+    color: white;
+    background-color: #e7491d;
+    width: 75px;
+  }
+  
+  .button:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .maindiv{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sametype{
+    font-size: 18px;
+  }
+
+  .div1{
+    padding: 20px;
+    line-height: 20px;
+    flex: 1;
+  }
+
+  .div1 h1{
+    padding-bottom: 10px;
+  }
+
+  .bc{
+    margin-top: 5px;
+    background-color: #E6E6E6 ;
+    border:1px solid #CECECE ;
+}
+
+.bc h2{
+    padding: 10px;
+}
+.p{
+    padding: 10px;
+}
+
+.div2{
+    margin-top: 10px;
+    color: white;
+    flex: 0.3;
+    width: 100%;
+    height: fit-content;
+    background-color: #35424a;
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div2 h4{
+    padding-bottom: 15px;
+}
+
+.div2 label,input{
+    padding: 5px;
+}
+
+.send{
+    margin-top: 5px;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: #E7491D;
+    cursor: pointer;
+
+}
+
+.send:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+
+.footer {
+    width: 100%;
+    height: 120px;
+    background-color: #35424a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+  }
+  .cwlogo {
+    height: 40px;
+  }
+  
